@@ -1,0 +1,3 @@
+FROM almalinux:9.0
+LABEL name="SAI"\
+      course="devops"
