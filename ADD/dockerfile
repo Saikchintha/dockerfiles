@@ -1,4 +1,4 @@
 FROM almalinux:9
 ADD https://github.com/Saikchintha/dockerfiles/blob/main/CMD/dockerfile /tmp/test.txt
 ADD sample.tar /tmp
-CMD ["sleep","60"]
+CMD ["sleep","300"]
