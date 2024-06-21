@@ -1,0 +1,3 @@
+FROM almalinux:9
+ADD https://github.com/Saikchintha/dockerfiles/blob/main/CMD/dockerfile /tmp/test.txt
+CMD ["sleep","60"]
