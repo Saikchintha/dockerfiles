@@ -1,2 +1,2 @@
 FROM almalinux:9
-CMD ["ping","c6",facebook.com]
+CMD ["ping","-c6","facebook.com"]
