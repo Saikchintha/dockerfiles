@@ -1,7 +1,6 @@
 FROM almalinux:9
-ENV 
-    Name="SAIKUMAR"\
+ENV Name="SAIKUMAR"\
     Course="DEVOPS"\
     Designation="DevOps engineer"
 
-CMD ["sleep","100"]
+# CMD ["sleep","100"]
