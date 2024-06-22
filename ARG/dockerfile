@@ -2,7 +2,8 @@ ARG version
 FROM almalinux:${version:-9}
 ARG Name=Saikchintha
 ARG Designation= DevOPS
-ENV Salary = 100hrs
+ARG Salary = 100hrs
+ENV Salary = $(Salary)
 RUN echo "my name is ${Name}, Salary is ${Salary}"
 
 CMD ["sleep","100"]
