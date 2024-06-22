@@ -1,4 +1,8 @@
 ARG version
 FROM almalinux:${version:-9}
+ARG Name=Saikchintha
+    Designation= DevOPS
+
+echo my name is ${Name}
 
 CMD ["sleep","100"]
